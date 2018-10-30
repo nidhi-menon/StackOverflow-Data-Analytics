@@ -1,10 +1,10 @@
-Project: StackOverflow Data Analytics
+# Project: StackOverflow Data Analytics
 
-DESCRIPTION - 
+## DESCRIPTION - 
 Package contains pythonic implementation for performing StackOverflow Data analysis. The aim is to be able to recommend users to a particular question based on Random Forest classifier and K-means clustering. In order to perform analysis, the UCI's StackOverflow dataset was used. However, in the available form it was insufficient and hence needed some feature engineering to be done. Using Stack Exchange DataExplorer website and API we were able to build features as Question vector and User vector.
 
 
-INSTALLATION - 
+## INSTALLATION - 
 Requirements
 1. Python 2.7
 2. scipy
@@ -17,7 +17,7 @@ Requirements
 In order to install the above packages, run the following command on the terminal :
 sudo pip install scipy numpy pandas nltk sklearn requests
 
-EXECUTION - 
+## EXECUTION - 
 Data Extraction
 UCI StackOverflow Data was retrieved from https://www.ics.uci.edu/~duboisc/stackoverflow/
 However, it was found to be incomplete. It consists of features - unique question id, Questioner Id, Answerer Id, Tags, Answer score.
